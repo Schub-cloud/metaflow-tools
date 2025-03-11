@@ -3,6 +3,29 @@ entries:
   metaflow-service:
   - apiVersion: v2
     appVersion: v2.4.13
+    created: "2025-03-11T13:02:05.458455722Z"
+    description: A Helm chart to deploy Metadata Service for Metaflow
+    digest: 64a10d5b005978a49a92e993a9f1a17855a21fad53bd67851c3104255d65858e
+    icon: https://metaflow.org/images/metaflow.svg
+    keywords:
+    - metaflow
+    - metadata
+    - service
+    maintainers:
+    - email: savin@outerbounds.co
+      name: Savin Goyal
+    - email: oleg@outerbounds.co
+      name: Oleg Avdeev
+    name: metaflow-service
+    sources:
+    - https://github.com/Netflix/metaflow-service
+    - https://github.com/outerbounds/metaflow-tools
+    type: application
+    urls:
+    - https://github.com/Schub-cloud/metaflow-tools/releases/download/metaflow-service-0.2.2/metaflow-service-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: v2.4.13
     created: "2025-03-11T12:57:50.06641711Z"
     description: A Helm chart to deploy Metadata Service for Metaflow
     digest: 88ee236621bec0fea1370c13daa0788ce9cc2054910ff7398b62d12df941d76b
@@ -69,4 +92,4 @@ entries:
     urls:
     - https://github.com/Schub-cloud/metaflow-tools/releases/download/metaflow-ui-0.3.1/metaflow-ui-0.3.1.tgz
     version: 0.3.1
-generated: "2025-03-11T12:57:50.066432418Z"
+generated: "2025-03-11T13:02:05.458496188Z"
